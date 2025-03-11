@@ -1,0 +1,92 @@
+body{
+    background-color: #626262;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+header{
+    background-color: #32CDA7;
+    text-align: center;
+    border-radius: 4px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0.1rem;
+    padding: 35px;
+    font-size: xx-large;
+}
+
+nav{
+    background-color: #8DECC4;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 0.1rem;
+}
+
+nav a{
+    margin: 8px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav .current{
+    font-weight: bold;
+}
+
+.sectionBody {
+    background-color: #626262;
+    border-radius: 4px;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.mainContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #626262;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.sectionMain{
+    background-color: #8DECC4;
+    border-radius: 4px;
+    margin-left: 2.3rem;
+    margin-right: 2.3rem;
+    margin-bottom: 1rem;
+}
+
+.eduHeader{
+    border-radius: 4px;
+    text-align: center;
+}
+
+.eduContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #8DECC4;
+    border-radius: 4px;
+    padding-top: 3px;
+}
+
+.eduContainer .eduBlock{
+    text-align: center;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.eduBlock{
+    background-color: #8DECC4;
+    border: 1px solid #03100A;
+}
