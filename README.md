@@ -1,2 +1,2 @@
-# portfolio
+# Portfolio
 Started creating my portfolio website 
